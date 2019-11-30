@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		ABE0504A30B167AE4BECC22E /* libPods-myres.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F06B25403E606268B28A8BA3 /* libPods-myres.a */; };
+		F13575BD23923FD80098A84F /* addvc.m in Sources */ = {isa = PBXBuildFile; fileRef = F13575BC23923FD80098A84F /* addvc.m */; };
 		F1A731892392395100A64EAF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F1A731882392395100A64EAF /* AppDelegate.m */; };
 		F1A7318C2392395100A64EAF /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F1A7318B2392395100A64EAF /* SceneDelegate.m */; };
 		F1A7318F2392395100A64EAF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1A7318E2392395100A64EAF /* ViewController.m */; };
@@ -40,6 +41,8 @@
 		1BFC14B4B6C66138040EE2B4 /* Pods-myres.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myres.debug.xcconfig"; path = "Target Support Files/Pods-myres/Pods-myres.debug.xcconfig"; sourceTree = "<group>"; };
 		54C81EC3A5D5A721ED8ADCF9 /* Pods-myres.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myres.release.xcconfig"; path = "Target Support Files/Pods-myres/Pods-myres.release.xcconfig"; sourceTree = "<group>"; };
 		F06B25403E606268B28A8BA3 /* libPods-myres.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-myres.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F13575BB23923FD80098A84F /* addvc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = addvc.h; sourceTree = "<group>"; };
+		F13575BC23923FD80098A84F /* addvc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = addvc.m; sourceTree = "<group>"; };
 		F1A731842392395100A64EAF /* myres.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myres.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1A731872392395100A64EAF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F1A731882392395100A64EAF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -92,7 +95,6 @@
 				1BFC14B4B6C66138040EE2B4 /* Pods-myres.debug.xcconfig */,
 				54C81EC3A5D5A721ED8ADCF9 /* Pods-myres.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -102,6 +104,15 @@
 				F06B25403E606268B28A8BA3 /* libPods-myres.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F13575BA23923FC70098A84F /* add */ = {
+			isa = PBXGroup;
+			children = (
+				F13575BB23923FD80098A84F /* addvc.h */,
+				F13575BC23923FD80098A84F /* addvc.m */,
+			);
+			path = add;
 			sourceTree = "<group>";
 		};
 		F1A7317B2392395100A64EAF = {
@@ -129,6 +140,7 @@
 		F1A731862392395100A64EAF /* myres */ = {
 			isa = PBXGroup;
 			children = (
+				F13575BA23923FC70098A84F /* add */,
 				F1A731872392395100A64EAF /* AppDelegate.h */,
 				F1A731882392395100A64EAF /* AppDelegate.m */,
 				F1A7318A2392395100A64EAF /* SceneDelegate.h */,
@@ -319,6 +331,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F1A7318F2392395100A64EAF /* ViewController.m in Sources */,
+				F13575BD23923FD80098A84F /* addvc.m in Sources */,
 				F1A731892392395100A64EAF /* AppDelegate.m in Sources */,
 				F1A7319A2392395C00A64EAF /* main.m in Sources */,
 				F1A7318C2392395100A64EAF /* SceneDelegate.m in Sources */,
